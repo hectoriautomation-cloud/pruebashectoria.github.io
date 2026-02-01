@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo HTML + CSS</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>MiWeb</span>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn" href="#contacto">Empezar</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="panel">
+        <div class="pill"><span class="dot"></span> Demo simple HTML + CSS (sin JS)</div>
+        <h1>Una landing limpia para tu proyecto</h1>
+        <p class="lead">
+          Esta plantilla te sirve para practicar: layout responsive, botones, tarjetas y un formulario.
+          Puedes cambiar colores, textos y secciones sin tocar nada complicado.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="#contacto">Quiero esto</a>
+          <a class="btn" href="#features">Ver detalles</a>
+        </div>
+
+        <div id="features" class="cards">
+          <div class="card">
+            <h3>Diseño responsive</h3>
+            <p>En móvil se apila todo automáticamente con media queries.</p>
+          </div>
+          <div class="card">
+            <h3>Componentes básicos</h3>
+            <p>Botones, tarjetas y estilos listos para reutilizar.</p>
+          </div>
+          <div class="card">
+            <h3>Fácil de editar</h3>
+            <p>Colores y bordes se controlan con variables CSS.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="contacto">
+        <h2 style="margin:0 0 8px; font-size: 22px;">Contacto</h2>
+        <p style="margin:0 0 14px; color: var(--muted); line-height:1.5;">
+          Rellena esto (demo visual). No envía nada porque no hay backend.
+        </p>
+
+        <form>
+          <div>
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Héctor" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="hector@email.com" />
+          </div>
+
+          <div>
+            <label for="msg">Mensaje</label>
+            <textarea id="msg" name="msg" placeholder="Quiero una web así para mi negocio..."></textarea>
+          </div>
+
+          <button class="btn primary" type="button">Enviar (demo)</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 · Plantilla demo HTML + CSS
+    </footer>
+  </div>
+</body>
+</html>
